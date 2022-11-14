@@ -1,0 +1,87 @@
+.invisible {
+    display: none;
+}
+
+body {
+    display: flex;
+    align-items: middle;
+    justify-content: center;
+}
+
+.quiz-container {
+    width: 900px;
+}
+
+@media only screen and (max-width: 900px) {
+    body {
+      margin: 20px
+    }
+
+    .q-image {
+        height: auto;
+        width: 80vw;
+    }
+    .q-image:hover {
+        transform: scale(130%);
+        transition: linear 0.1s;
+    }
+  }
+
+.start-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.flex1 {
+    flex: 1;
+}
+.start-container button {
+    margin-right: 10px
+}
+
+.spaced {
+    margin: 20px 0px 20px 0px;
+}
+
+.check {
+    width: 100px;
+}
+
+.questions-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 400px;
+}
+
+.controls{
+    display: flex;
+    position: relative;
+}
+
+.points {
+    margin-left: 20px
+}
+
+.opt {
+    margin-top: 10px;;
+}
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.q-image {
+    height: 200px;
+    object-fit: contain;
+}
+
+.q-image:hover {
+    transform: scale(190%);
+    transition: linear 0.1s;
+}
+
+.repeat-container { 
+    position: absolute;
+    right: 0;
+}

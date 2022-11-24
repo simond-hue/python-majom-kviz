@@ -934,6 +934,263 @@ const questions1 = [
 				correct: false 
 			}
 		],
+	},
+	{
+		q: "To draw an arrow on a figure, then you can use the method called __________ from the matplotlib module (plt)",
+		a: [
+			{
+				a: 'plt.annotate()',
+				correct: true,
+			},
+			{ 
+				a: 'plt.legend()', 
+				correct: false 
+			},
+			{ 
+				a: 'plt.xticks()', 
+				correct: false 
+			},
+			{ 
+				a: 'plt.plot()', 
+				correct: false 
+			}
+		],
+	},
+	{
+		q: "A researcher does not use a temperature sensor correctly. What kind of error will be?",
+		a: [
+			{
+				a: 'Gross Error',
+				correct: true,
+			},
+			{ 
+				a: 'Random Error', 
+				correct: false 
+			},
+			{ 
+				a: 'Systematic Error', 
+				correct: false 
+			},
+			{ 
+				a: 'Noise Error', 
+				correct: false 
+			}
+		],
+	},
+	{
+		q: "Need a target to work",
+		a: [
+			{
+				a: 'Supervised ML',
+				correct: true,
+			},
+			{ 
+				a: 'Unsupervised ML', 
+				correct: false 
+			},
+			{ 
+				a: 'Data Mining', 
+				correct: false 
+			},
+			{ 
+				a: 'All are correct', 
+				correct: false 
+			}
+		],
+	},
+	{
+		q: "<class 'pandas.core.frame.DataFrame'>\nRangeIndex: 915 entries, 0 to 914\nData columns (total 12 columns):\nPassengerId    915 non-null int64\nSurvived       915 non-null int64\nPclass         915 non-null int64\nName           915 non-null object\nGender         915 non-null object\nAge            738 non-null float64\nSibSp          915 non-null int64\n\nAccording to the above lines, In which column(s) there are NaN values.  ",
+		a: [
+			{
+				a: 'Age',
+				correct: true,
+			},
+			{ 
+				a: 'Pclass', 
+				correct: false 
+			},
+			{ 
+				a: 'No NaN values are there', 
+				correct: false 
+			},
+			{ 
+				a: 'Gender', 
+				correct: false 
+			}
+		],
+	},
+	{
+		q: "Learn from the data itself",
+		a: [
+			{
+				a: 'Unsupervised ML',
+				correct: true,
+			},
+			{ 
+				a: 'AI', 
+				correct: false 
+			},
+			{ 
+				a: 'Supervised ML', 
+				correct: false 
+			},
+			{ 
+				a: 'Data Mining', 
+				correct: false 
+			}
+		],
+	},
+	{
+		q: "When you use a classification in ML, then you most probably will visualize the data using",
+		a: [
+			{
+				a: 'tree from graphviy',
+				correct: true,
+			},
+			{ 
+				a: 'hist', 
+				correct: false 
+			},
+			{ 
+				a: 'heat map', 
+				correct: false 
+			},
+			{ 
+				a: 'matplotlib', 
+				correct: false 
+			}
+		],
+	},
+	{
+		q: "To calculate the error,  which module used (according to the labs)\norder = 1\np = np.poly1d(np.polyfit(x, y ,order))\nfrom _________  import r2_score\nr2 = r2_score(y, p(x))\nr2",
+		a: [
+			{
+				a: 'sklearn.metrics',
+				correct: true,
+			},
+			{ 
+				a: 'sklearn', 
+				correct: false 
+			},
+			{ 
+				a: 'seaborn', 
+				correct: false 
+			},
+			{ 
+				a: 'scikit', 
+				correct: false 
+			}
+		],
+	},
+	{
+		q: "When using the ML to predict something based on the given data, Calculating the noise ratio is important. One needs to know how correct is the prediction is .",
+		a: [
+			{
+				a: 'True',
+				correct: true,
+			},
+			{ 
+				a: 'False', 
+				correct: false 
+			}
+		],
+	},
+	{
+		q: "	district	sales	stores\n0	1	231.0	12\n1	2	156.0	13\n2	3	10.0	16\n3	4	519.0	2\n4	5	437.0	6\nIf the dataframe above called SA, you can reach the Sales column in this way SA.sales or  SA.['sales']",
+		a: [
+			{
+				a: 'False',
+				correct: true,
+			},
+			{ 
+				a: 'True', 
+				correct: false 
+			}
+		],
+	},
+	{
+		q: "what method/function produces this output  from a dataframe called PP\n<class 'pandas.core.frame.DataFrame'>\nRangeIndex: 915 entries, 0 to 914\nData columns (total 12 columns):\nPassengerId    915 non-null int64\nSurvived       915 non-null int64\nPclass         915 non-null int64\nName           915 non-null object\nGender         915 non-null object\nAge            738 non-null float64\nSibSp          915 non-null int64\n\nAccording to the above lines, In which column(s) there are NaN values.  ",
+		a: [
+			{
+				a: 'PP.info()',
+				correct: true,
+			},
+			{ 
+				a: 'PP.describe', 
+				correct: false 
+			},
+			{ 
+				a: 'PP.head()', 
+				correct: false 
+			},
+			{ 
+				a: 'info(PP)', 
+				correct: false 
+			}
+		],
+	},
+	{
+		q: "	district	sales	stores\n0	1	231.0	12\n1	2	156.0	13\n2	3	10.0	16\n3	4	519.0	2\n4	5	437.0	6\nDrop the District column using the drop method. (Donot create a new dataframe, drop it from this dataframe itself) Important: the dataframe names is df",
+		a: [
+			{
+				a: 'df.drop(\'district\',axis=1,inplace=True)',
+				correct: true,
+			},
+			{ 
+				a: 'sales = df.drop(\'district\',axis=1, inplace=True)', 
+				correct: false 
+			},
+			{ 
+				a: 'df.drop(\'district\',axis=1)', 
+				correct: false 
+			},
+			{ 
+				a: 'sales = df.drop(\'district\',axis=1)', 
+				correct: false 
+			}
+		],
+	},
+	{
+		q: "To fill a NaN values in a column in the age column , you can use the following code\nNote: the dataframe called training\n<class 'pandas.core.frame.DataFrame'>\nRangeIndex: 915 entries, 0 to 914\nData columns (total 12 columns):\nPassengerId    915 non-null int64\nSurvived       915 non-null int64\nPclass         915 non-null int64\nName           915 non-null object\nGender         915 non-null object\nAge            738 non-null float64\nSibSp          915 non-null int64",
+		a: [
+			{
+				a: 'training["Age"].fillna(training["Age"].mean(), inplace=True)',
+				correct: true,
+			},
+			{ 
+				a: 'training["Age"].fillna(training["Age"].mean(), axces=1)', 
+				correct: false 
+			},
+			{ 
+				a: 'training["Age"].fillna(training["Age"].mean())', 
+				correct: false 
+			},
+			{ 
+				a: 'training["Age"].dropna()', 
+				correct: false 
+			}
+		],
+	},
+	{
+		q: "What this code for \n\ndef scatter_view(x, y, z, azim, elev):\n\t	   # Init figure and axes\n\t	   fig = plt.figure(figsize=(8, 8))\n\t		ax = Axes3D(fig)\n\t\n\t		# Compute scatter plot\n\t		ax.scatter(x, y, z)\n\t		ax.set_xlabel('D rate (Mbit/s)', fontsize=16)\n\t		ax.set_ylabel('U rate (Mbit/s)', fontsize=16)\n\t		ax.set_zlabel('P rate (1/s)', fontsize=16)\n\t\n#       Specify azimuth\n# and elevation\n\t		ax.azim = azim\n\t		ax.elev = elev",
+		a: [
+			{
+				a: 'it is for 3D figure',
+				correct: true,
+			},
+			{ 
+				a: 'Indentation error', 
+				correct: false 
+			},
+			{ 
+				a: 'It is a function that needs to return something so it is not completely written', 
+				correct: false 
+			},
+			{ 
+				a: 'for calculating the azim and elev', 
+				correct: false 
+			}
+		],
 	}
 ];
 

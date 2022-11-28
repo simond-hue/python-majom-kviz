@@ -470,7 +470,7 @@ const questions1 = [
 				correct: false 
 			},
 			{ 
-				a: '[0. 2. 4 .6 .8]', 
+				a: '[0, 2, 4, 6, 8]', 
 				correct: true 
 			}
 		],

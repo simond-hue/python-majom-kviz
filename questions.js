@@ -1197,6 +1197,171 @@ const questions1 = [
 				correct: false 
 			}
 		],
+	},
+	{
+		q: 'Is there something missing in the following code?\nclass Snakes:\ndef __init__():\nself.sound = "Ssssss"',
+		a: [
+			{
+				a: 'Nothing is missing',
+				correct: false,
+			},
+			{ 
+				a: 'The __init__() constructor lacks the obligatory parameter (we should name it self to stay compliant with the standards)', 
+				correct: true 
+			},
+			{ 
+				a: 'self.__sound = "Ssssss"', 
+				correct: false 
+			},
+			{ 
+				a: 'Calling the upper class', 
+				correct: false 
+			}
+		]
+	},
+	{
+		q: 'In the procedural approach, the data can use the functions.',
+		a: [
+			{
+				a: 'True',
+				correct: false,
+			},
+			{ 
+				a: 'False', 
+				correct: true 
+			}
+		]
+	},
+	{
+		q: 'If we assume that pythons, vipers, and cobras are subclasses of the same superclass, how would you call it?',
+		a: [
+			{
+				a: 'All of the above',
+				correct: false,
+			},
+			{
+				a: 'People',
+				correct: false
+			},
+			{ 
+				a: 'Snake or reptile', 
+				correct: true 
+			},
+			{ 
+				a: 'Cars', 
+				correct: false 
+			}
+		]
+	},
+	{
+		q: 'Can you name one of your classes just "class"?',
+		a: [
+			{
+				a: 'Yes, I can and why not?',
+				correct: false,
+			},
+			{
+				a: 'No, class is a keyword.',
+				correct: true
+			},
+			{ 
+				a: 'I can, but there is no need for that.', 
+				correct: false 
+			},
+			{ 
+				a: 'No, class is a function.', 
+				correct: false 
+			}
+		]
+	},
+	{
+		q: 'What is the name of the most general of all Python exceptions',
+		a: [
+			{
+				a: 'MemoryError',
+				correct: false,
+			},
+			{
+				a: 'Except',
+				correct: false
+			},
+			{ 
+				a: 'AssertionError', 
+				correct: false 
+			},
+			{ 
+				a: 'BaseException', 
+				correct: true 
+			}
+		]
+	},
+	{
+		q: 'Write only one line\n\nAssuming that there is a class named snakes, write the very first line of the Python class declaration expressing the fact that the new class is actually a subclass of Snake.',
+		a: [
+			{
+				a: 'class Python:',
+				correct: false,
+			},
+			{
+				a: 'class Python(Snake):',
+				correct: true
+			}
+		]
+	},
+	{
+		q: 'What is the output?\n\nClass Snake:\npass\nclass Python(Snake):\npass\nprint(Python.__name__, "is a", Snake.__name__)\nprint(Python._bases__[0].__name__, "can be", Python.__name__',
+		a: [
+			{
+				a: 'Python is a Snake Snake can be Snake',
+				correct: false,
+			},
+			{
+				a: 'Python is a Snake Snake can be Python',
+				correct: false
+			},
+			{
+				a: 'Python is a Python Snake can be Python',
+				correct: false
+			},
+			{
+				a: 'Error',
+				correct: true
+			}
+		]
+	},
+	{
+		q: 'The priority of ZeroDivisionError is higher than the ArithmeticError in the Exceptions-tree, that is why the Arithmetic error should be always before the ZeroDivisionError.',
+		a: [
+			{
+				a: 'True',
+				correct: false,
+			},
+			{
+				a: 'False',
+				correct: true
+			}
+		]
+	},
+	{
+		q: 'Choose the correct answer.\n\nclass Python:qnpopulation = 1\nvictims = 0\ndef __init__(self):\nself.length_ft = 3\nself.__venomous = False',
+		a: [
+			{
+				a: 'population and victims are instance variables',
+				correct: false,
+			},
+			{
+				a: 'population and victims are class variables',
+				correct: true
+			},
+			{
+				a: 'length and __venomous are class variables',
+				correct: false
+			},
+			{
+				a: 'population and __venomous are class variables',
+				correct: false
+			}
+		]
 	}
 ];
 

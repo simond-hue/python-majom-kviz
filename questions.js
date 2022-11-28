@@ -79,6 +79,7 @@ const questions1 = [
 			},
 			{ a: 'Python is faster compared to c++ ', correct: false },
 		],
+		multiply: true
 	},
 	{
 		q: 'Usually, Interpreter is faster than the complier.',
@@ -378,6 +379,7 @@ const questions1 = [
 				correct: true 
 			}
 		],
+		multiply: true
 	},
 	{
 		q: 'Write a lambda function, setting the least significant bit of its integer argument, and apply it to the map() function to produce the string 1 3 3 5 on the console.\nany_list = [1, 2, 3, 4]\neven_list = # Complete the line here.\nprint(even_list)\nHint: the " opertation does the following :\neven | 1 = even + 1\nodd | 1 = odd',
@@ -511,7 +513,7 @@ const questions1 = [
 			},
 			{ 
 				a: '"wt" or "w"', 
-				correct: false 
+				correct: true 
 			}
 		],
 	},
@@ -548,6 +550,7 @@ const questions1 = [
 				correct: true 
 			}
 		],
+		multiply: true
 	},
 	{
 		q: 'What is the expected output of the following code?\nimport math\ntry:\n\tprint(math.sqrt(-9))\nexcept ValueError:\n\tprint("inf")\nelse:\n\tprint("fine")\nfinally:\n\tprint("the end")',
@@ -632,6 +635,7 @@ const questions1 = [
 				correct: false,
 			}
 		],
+		multiply: true
 	},
 	{
 		q: 'Which of the following is considered traditional data storage.',
@@ -700,6 +704,7 @@ const questions1 = [
 				correct: true 
 			}
 		],
+		multiply: true
 	},
 	{
 		q: 'Which of the following is unstructured data ?',
@@ -759,6 +764,7 @@ const questions1 = [
 				correct: true 
 			}
 		],
+		multiply: true
 	},
 	{
 		q: 'Today, data is growing __________________ ',
